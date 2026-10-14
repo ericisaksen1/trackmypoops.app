@@ -454,7 +454,8 @@ a.tb-btn:active {
   background: #ffff80;
 }
 
-.shots-title {
+.shots-title,
+.section-title {
   font: 700 24px/1.3 var(--pixel);
   margin: 40px 0 14px;
 }
@@ -486,6 +487,35 @@ a.tb-btn:active {
   font: 500 16px/1.3 var(--pixel);
   margin-top: 8px;
   max-width: 214px;
+}
+
+.follow .section-title {
+  margin-bottom: 4px;
+}
+.follow-note {
+  margin: 0;
+}
+.socials {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+}
+.socials li {
+  margin: 0;
+}
+.socials .btn {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 10px 14px 11px;
+}
+.socials .btn span {
+  font: 500 15px/1.2 var(--pixel);
+  color: #404040;
 }
 
 .note-small {
