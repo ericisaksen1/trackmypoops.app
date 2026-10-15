@@ -82,6 +82,37 @@
               <span class="note">Free for iPhone. No account needed.</span>
             </div>
 
+            <section class="signup" id="launch-list" aria-labelledby="signup-title">
+              <div class="dialog">
+                <div class="dialog-title">
+                  <img class="px" src="assets/img/icon-floppy.png" alt="" />
+                  <span>Launch List</span>
+                </div>
+                <div class="dialog-body">
+                  <img class="px dialog-icon" src="assets/img/dialog-question.png" alt="" />
+                  <form id="signup-form" novalidate>
+                    <h2 id="signup-title">Want an email when it's out?</h2>
+                    <p class="signup-lede">One email the day it's out for your phone. That's it.</p>
+                    <div class="fields">
+                      <label class="sr" for="signup-email">Email address</label>
+                      <input id="signup-email" class="field" type="email" name="email" autocomplete="email" inputmode="email" placeholder="you@example.com" required />
+                      <fieldset class="platform">
+                        <legend>I have an</legend>
+                        <label><input type="radio" name="platform" value="iphone" checked /> iPhone</label>
+                        <label><input type="radio" name="platform" value="android" /> Android</label>
+                      </fieldset>
+                      <div class="hp" aria-hidden="true">
+                        <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+                      </div>
+                      <button class="btn" type="submit">Notify Me</button>
+                    </div>
+                    <p class="signup-status" role="status" aria-live="polite"></p>
+                    <p class="fine">I'll only use it to tell you about the launch. <a href="privacy/#launch-list">Privacy policy</a></p>
+                  </form>
+                </div>
+              </div>
+            </section>
+
             <ul class="cards">
               <li class="card yellow">
                 <img class="px" src="assets/img/icon-toilet.png" alt="" />
